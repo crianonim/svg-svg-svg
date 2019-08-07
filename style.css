@@ -1,3 +1,17 @@
 .img1 {
     width:400px;
 }
+svg {
+    width:400px;
+    border:1px solid black;
+    padding:1rem;
+}
+svg:last-of-type {
+    border-color: red;
+}
+section {
+    display: flex;
+}
+input {
+    flex-grow: 1;
+}
