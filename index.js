@@ -1,3 +1,5 @@
+const s1=_svg.createSVGElement('svg',{viewBox:"0 0 300 300"},document.body);
+_svg.createSVGElement('circle',{cx:20,cy:5,r:11,fill:'pink'},s1);
 const poly1=document.querySelector('.poly1');
 const svg=document.querySelector('svg.img1');
 const p=svg.createSVGPoint();
@@ -14,3 +16,6 @@ circle.setAttribute('cy',"100");
 circle.setAttribute('r',"50");
 svg2.appendChild(circle)
 document.body.appendChild(svg2);
+
+
+_svg.createSVGElement('rect',{x:300,y:200,width:20,height:40},svg2);
