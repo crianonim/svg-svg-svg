@@ -1,8 +1,14 @@
-let s1=_svg.createSVGElement('svg',{viewBox:"0 0 100 100","class":"svg1"},document.body);
-// _svg.createSVGElement('circle',{cx:20,cy:5,r:11,fill:'pink',stroke:'inherit'},s1);
-// _svg.circle(50,50,4,s1);
-// _svg.rect(30,20,8,4,s1);
-// _svg.polygon("2 4 60 70 50 400",s1);
+const SVGView = document.querySelector('svg-view');
+const SVGCode = document.querySelector('svg-code');
+const render=()=>{
+
+}
+const renderSVGView=()=>{
+
+}
+
+let s1=_svg.createSVGElement('svg',{viewBox:"0 0 100 100","class":"svg1"},document.query);
+
 const defaultValues={
     "circle":'"cx":50,"cy":30,"r":10',
     "rect":'"x":20,"y":50,"width":40,"height":20',
